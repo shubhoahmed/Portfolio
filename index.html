@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Shubho Ahmed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/856b5bd403.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" alt="" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+
+                <i class="fa-sharp fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>React JS Developer</h4>
+                <h1>I'm <span>Shubho</span> <br> Ahmed From Bangladeh.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section start -->
+
+    <!-- <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/shuvo-bg.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-title">About Me</h1>
+                    <p>To execute a responsible position, where i would use my technical and interpersonal skill,
+                        creativity and above all my learning experience to develop my career as well as to contribute to
+                        the welfare of the company. </p>
+                    <div class="sub-titles">
+                        <div class="baby-title">Skills</div>
+                        <div class="baby-title">Education</div>
+                        <div class="baby-title">Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Contact section start -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="about-title">Contact Me</h1>
+                    <p>Email:shubhoahmed03@gmail.com</p>
+                    <p>Phone: +880 13145-33701</p>
+                    <div class="social-icon">
+                    </div>
+                    <a href="images/shubho-ahmed-resume.pdf" class="btn btn2" Download>Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="4" placeholder="Your massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
